@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC51A0D1C9A67ED00F347F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC51A0C1C9A67ED00F347F9 /* main.m */; };
+		CFC51A101C9A67ED00F347F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC51A0F1C9A67ED00F347F9 /* AppDelegate.m */; };
+		CFC51A131C9A67ED00F347F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC51A121C9A67ED00F347F9 /* ViewController.m */; };
+		CFC51A161C9A67ED00F347F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC51A141C9A67ED00F347F9 /* Main.storyboard */; };
+		CFC51A181C9A67ED00F347F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC51A171C9A67ED00F347F9 /* Assets.xcassets */; };
+		CFC51A1B1C9A67ED00F347F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC51A191C9A67ED00F347F9 /* LaunchScreen.storyboard */; };
+		CFC51A261C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC51A251C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.m */; };
+		CFC51A311C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC51A301C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.m */; };
+		CFC51A401C9A680400F347F9 /* JSMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC51A3F1C9A680400F347F9 /* JSMouse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC51A221C9A67ED00F347F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC51A001C9A67ED00F347F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC51A071C9A67ED00F347F9;
+			remoteInfo = Demo2_JS_PlayMouse;
+		};
+		CFC51A2D1C9A67EE00F347F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC51A001C9A67ED00F347F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC51A071C9A67ED00F347F9;
+			remoteInfo = Demo2_JS_PlayMouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC51A081C9A67ED00F347F9 /* Demo2_JS_PlayMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo2_JS_PlayMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC51A0C1C9A67ED00F347F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFC51A0E1C9A67ED00F347F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFC51A0F1C9A67ED00F347F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFC51A111C9A67ED00F347F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFC51A121C9A67ED00F347F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFC51A151C9A67ED00F347F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC51A171C9A67ED00F347F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC51A1A1C9A67ED00F347F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC51A1C1C9A67ED00F347F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC51A211C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2_JS_PlayMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC51A251C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_JS_PlayMouseTests.m; sourceTree = "<group>"; };
+		CFC51A271C9A67ED00F347F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC51A2C1C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2_JS_PlayMouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC51A301C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2_JS_PlayMouseUITests.m; sourceTree = "<group>"; };
+		CFC51A321C9A67EE00F347F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC51A3E1C9A680400F347F9 /* JSMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMouse.h; sourceTree = "<group>"; };
+		CFC51A3F1C9A680400F347F9 /* JSMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMouse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC51A051C9A67ED00F347F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC51A1E1C9A67ED00F347F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC51A291C9A67ED00F347F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC519FF1C9A67ED00F347F9 = {
+			isa = PBXGroup;
+			children = (
+				CFC51A0A1C9A67ED00F347F9 /* Demo2_JS_PlayMouse */,
+				CFC51A241C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests */,
+				CFC51A2F1C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests */,
+				CFC51A091C9A67ED00F347F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC51A091C9A67ED00F347F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC51A081C9A67ED00F347F9 /* Demo2_JS_PlayMouse.app */,
+				CFC51A211C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.xctest */,
+				CFC51A2C1C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC51A0A1C9A67ED00F347F9 /* Demo2_JS_PlayMouse */ = {
+			isa = PBXGroup;
+			children = (
+				CFC51A0E1C9A67ED00F347F9 /* AppDelegate.h */,
+				CFC51A0F1C9A67ED00F347F9 /* AppDelegate.m */,
+				CFC51A111C9A67ED00F347F9 /* ViewController.h */,
+				CFC51A121C9A67ED00F347F9 /* ViewController.m */,
+				CFC51A141C9A67ED00F347F9 /* Main.storyboard */,
+				CFC51A171C9A67ED00F347F9 /* Assets.xcassets */,
+				CFC51A191C9A67ED00F347F9 /* LaunchScreen.storyboard */,
+				CFC51A1C1C9A67ED00F347F9 /* Info.plist */,
+				CFC51A0B1C9A67ED00F347F9 /* Supporting Files */,
+				CFC51A3E1C9A680400F347F9 /* JSMouse.h */,
+				CFC51A3F1C9A680400F347F9 /* JSMouse.m */,
+			);
+			path = Demo2_JS_PlayMouse;
+			sourceTree = "<group>";
+		};
+		CFC51A0B1C9A67ED00F347F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFC51A0C1C9A67ED00F347F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFC51A241C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC51A251C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.m */,
+				CFC51A271C9A67ED00F347F9 /* Info.plist */,
+			);
+			path = Demo2_JS_PlayMouseTests;
+			sourceTree = "<group>";
+		};
+		CFC51A2F1C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC51A301C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.m */,
+				CFC51A321C9A67EE00F347F9 /* Info.plist */,
+			);
+			path = Demo2_JS_PlayMouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC51A071C9A67ED00F347F9 /* Demo2_JS_PlayMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC51A351C9A67EE00F347F9 /* Build configuration list for PBXNativeTarget "Demo2_JS_PlayMouse" */;
+			buildPhases = (
+				CFC51A041C9A67ED00F347F9 /* Sources */,
+				CFC51A051C9A67ED00F347F9 /* Frameworks */,
+				CFC51A061C9A67ED00F347F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo2_JS_PlayMouse;
+			productName = Demo2_JS_PlayMouse;
+			productReference = CFC51A081C9A67ED00F347F9 /* Demo2_JS_PlayMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC51A201C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC51A381C9A67EE00F347F9 /* Build configuration list for PBXNativeTarget "Demo2_JS_PlayMouseTests" */;
+			buildPhases = (
+				CFC51A1D1C9A67ED00F347F9 /* Sources */,
+				CFC51A1E1C9A67ED00F347F9 /* Frameworks */,
+				CFC51A1F1C9A67ED00F347F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC51A231C9A67ED00F347F9 /* PBXTargetDependency */,
+			);
+			name = Demo2_JS_PlayMouseTests;
+			productName = Demo2_JS_PlayMouseTests;
+			productReference = CFC51A211C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC51A2B1C9A67ED00F347F9 /* Demo2_JS_PlayMouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC51A3B1C9A67EE00F347F9 /* Build configuration list for PBXNativeTarget "Demo2_JS_PlayMouseUITests" */;
+			buildPhases = (
+				CFC51A281C9A67ED00F347F9 /* Sources */,
+				CFC51A291C9A67ED00F347F9 /* Frameworks */,
+				CFC51A2A1C9A67ED00F347F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC51A2E1C9A67EE00F347F9 /* PBXTargetDependency */,
+			);
+			name = Demo2_JS_PlayMouseUITests;
+			productName = Demo2_JS_PlayMouseUITests;
+			productReference = CFC51A2C1C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC51A001C9A67ED00F347F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CFC51A071C9A67ED00F347F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CFC51A201C9A67ED00F347F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFC51A071C9A67ED00F347F9;
+					};
+					CFC51A2B1C9A67ED00F347F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFC51A071C9A67ED00F347F9;
+					};
+				};
+			};
+			buildConfigurationList = CFC51A031C9A67ED00F347F9 /* Build configuration list for PBXProject "Demo2_JS_PlayMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC519FF1C9A67ED00F347F9;
+			productRefGroup = CFC51A091C9A67ED00F347F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC51A071C9A67ED00F347F9 /* Demo2_JS_PlayMouse */,
+				CFC51A201C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests */,
+				CFC51A2B1C9A67ED00F347F9 /* Demo2_JS_PlayMouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC51A061C9A67ED00F347F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC51A1B1C9A67ED00F347F9 /* LaunchScreen.storyboard in Resources */,
+				CFC51A181C9A67ED00F347F9 /* Assets.xcassets in Resources */,
+				CFC51A161C9A67ED00F347F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC51A1F1C9A67ED00F347F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC51A2A1C9A67ED00F347F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC51A041C9A67ED00F347F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC51A131C9A67ED00F347F9 /* ViewController.m in Sources */,
+				CFC51A101C9A67ED00F347F9 /* AppDelegate.m in Sources */,
+				CFC51A401C9A680400F347F9 /* JSMouse.m in Sources */,
+				CFC51A0D1C9A67ED00F347F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC51A1D1C9A67ED00F347F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC51A261C9A67ED00F347F9 /* Demo2_JS_PlayMouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC51A281C9A67ED00F347F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC51A311C9A67EE00F347F9 /* Demo2_JS_PlayMouseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC51A231C9A67ED00F347F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC51A071C9A67ED00F347F9 /* Demo2_JS_PlayMouse */;
+			targetProxy = CFC51A221C9A67ED00F347F9 /* PBXContainerItemProxy */;
+		};
+		CFC51A2E1C9A67EE00F347F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC51A071C9A67ED00F347F9 /* Demo2_JS_PlayMouse */;
+			targetProxy = CFC51A2D1C9A67EE00F347F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFC51A141C9A67ED00F347F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC51A151C9A67ED00F347F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC51A191C9A67ED00F347F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC51A1A1C9A67ED00F347F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC51A331C9A67EE00F347F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFC51A341C9A67EE00F347F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC51A361C9A67EE00F347F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo2_JS_PlayMouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo2-JS-PlayMouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFC51A371C9A67EE00F347F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo2_JS_PlayMouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo2-JS-PlayMouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFC51A391C9A67EE00F347F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo2_JS_PlayMouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo2-JS-PlayMouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo2_JS_PlayMouse.app/Demo2_JS_PlayMouse";
+			};
+			name = Debug;
+		};
+		CFC51A3A1C9A67EE00F347F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo2_JS_PlayMouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo2-JS-PlayMouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo2_JS_PlayMouse.app/Demo2_JS_PlayMouse";
+			};
+			name = Release;
+		};
+		CFC51A3C1C9A67EE00F347F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo2_JS_PlayMouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo2-JS-PlayMouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo2_JS_PlayMouse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFC51A3D1C9A67EE00F347F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo2_JS_PlayMouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo2-JS-PlayMouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo2_JS_PlayMouse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC51A031C9A67ED00F347F9 /* Build configuration list for PBXProject "Demo2_JS_PlayMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC51A331C9A67EE00F347F9 /* Debug */,
+				CFC51A341C9A67EE00F347F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC51A351C9A67EE00F347F9 /* Build configuration list for PBXNativeTarget "Demo2_JS_PlayMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC51A361C9A67EE00F347F9 /* Debug */,
+				CFC51A371C9A67EE00F347F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC51A381C9A67EE00F347F9 /* Build configuration list for PBXNativeTarget "Demo2_JS_PlayMouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC51A391C9A67EE00F347F9 /* Debug */,
+				CFC51A3A1C9A67EE00F347F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC51A3B1C9A67EE00F347F9 /* Build configuration list for PBXNativeTarget "Demo2_JS_PlayMouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC51A3C1C9A67EE00F347F9 /* Debug */,
+				CFC51A3D1C9A67EE00F347F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC51A001C9A67ED00F347F9 /* Project object */;
+}
